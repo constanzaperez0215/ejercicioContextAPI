@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { CounterContext } from "./context/CounterContext"
+import { CounterContext } from "../context/CounterContext"
 
 const Increment = () => {
 const { counter, setCounter } = useContext (CounterContext)

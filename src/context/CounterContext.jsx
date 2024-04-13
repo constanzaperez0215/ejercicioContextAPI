@@ -3,7 +3,7 @@ import { createContext, useState } from "react"
 export const CounterContext = createContext()
 
 const CounterProvider = ({ children }) => {
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState(0);
 
   return (
     <CounterContext.Provider value={{ counter, setCounter }}>
